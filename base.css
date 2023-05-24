@@ -1,0 +1,42 @@
+:root {
+    --white : #fff;
+    --black-text : #333;
+    --black: #000;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Lily Script One', cursive;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+} 
+
+img {
+    object-fit: cover;
+}
+body {
+    width: 100%;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid-full {
+    width: 100%;
+}
+
+.grid-row {
+    display: flex;
+    flex-wrap: wrap;
+}

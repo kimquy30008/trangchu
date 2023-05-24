@@ -1,0 +1,402 @@
+.content-login {
+    width: 100%;
+    margin: 0;
+    height: 70rem;
+    background-color: #fbd2e7;
+}
+
+
+.content-signin {
+    width: 100%;
+    margin: 0;
+    height: 80rem;
+    background-color: #fbd2e7;
+}
+
+.text1 {
+    margin-top: 0;
+    height: 10rem;
+    text-align: center;
+    color:  #f1437d;
+    padding-top: 2rem;
+}
+
+.text-intro-after {
+    height: 12rem;
+}
+
+.text1-item1 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #f1437d;
+}
+
+.text1-item2 {
+    font-size: 1.8rem;
+}
+
+.login {
+    width: 100%;
+    color: #f1437d;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.login-user, .login-pass {
+    width: 40rem;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-bottom:2px solid #f08080;
+    font-size: 1.7rem;
+}
+
+.login-user {
+    height: 2.5rem;
+    display: flex;
+    padding-left: 3px;
+    
+}
+
+.login-pass {
+    height: 2.5rem;
+    display: flex;
+    padding-left: 3px;
+    margin-top: 3.5rem;
+}
+
+.login-nhap {
+    flex: 1;
+    border: none;
+    background-color: #fbd2e7;
+    outline: none;
+    margin-left: .5rem;
+    padding: 0;
+}
+
+
+
+.login-icon {
+    font-size: 1.7rem;
+}
+
+::placeholder {
+    color: #e88dac;
+    font-size: 1.7rem;
+}
+
+.login-sub {
+    color: #f08080;
+    background-color: #fbd2e7;
+    font-size: 2rem;
+    border: none;
+    border-bottom: 1px solid #f08080;
+    margin-bottom: 3rem;
+}
+
+.login-forget {
+    font-size: 2rem;
+    color: #e63a73;
+}
+
+.login-connect {
+    width: 30rem;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+.list-login-connect{
+    list-style-type: none;
+    padding: 0;
+    display: inline-flex;
+    margin-top: 2rem;
+}
+
+.img-login-connect {
+    width: 5rem;
+    height: 5rem;
+}
+
+.login-signin {
+    margin-top: 6rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.login-text{
+    height: 3.2rem;
+    font-size: 2rem;
+    color: #e63a73;
+    margin-left: 2rem;
+    text-decoration: none;
+    padding: 1px 6px;
+    border-bottom:1px solid #f08080;
+}
+
+.signin-line {
+    width: 1px;
+    height: 4rem;
+    border: 1px solid #f08080;
+    margin-left: 2rem;
+}
+
+.signin {
+    width: 100%;
+    color: #f1437d;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.signin-nhap {
+    width: 100%;
+    color: #f08080;
+    background-color: #fbd2e7;
+    font-size: 2rem;
+    border: none;
+    border-bottom: 1px solid #f08080;
+    margin-bottom: 3rem;
+    outline: none;
+    max-width: 50rem;
+}
+
+.signin-radio {
+    width: 50rem;
+    margin: auto;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.signin-gender {
+    margin-right: 3rem;
+}
+
+.gender-text {
+    font-size: 1.7rem;
+    padding-left: 5px;
+}
+
+.accept {
+    width: 50rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.content-intro {
+    width: 100%;
+    margin: 0;
+    height: 105rem;
+    background-color: #fbd2e7;
+}
+
+.introduce {
+    width: 70%;
+    margin: auto;
+    color: #f1437d;
+    padding-top: 4rem;
+}
+
+.header-intro {
+    height: 5rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.img-intro {
+    width: 30rem;
+    height: 30rem;
+    border-radius: 1rem;
+}
+
+.center-intro {
+    height: 40rem;
+    
+}
+
+.intro-text1 {
+    font-size: 1.7rem;
+    color: #e63a73;
+    line-height: 4rem;
+}
+
+.intro-text2 {
+    font-weight: 500;
+}
+
+.img-intro-list {
+    width: 5rem;
+    height: 5rem;
+}
+
+.list-link {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin-top: 2.5rem;
+}
+
+.footer-intro {
+    min-width: 100%;
+    height: 40rem;
+    margin: 0;
+}
+
+.footer-intro-text {
+    height: 11rem;
+}
+
+.img-footer-intro {
+    width: 60rem;
+    height: 25rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 990px) {
+    .introduce {
+        width: 98%;
+    }
+
+    .list-link {
+        width: 40rem;
+        
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .text1-item2 {
+        font-size: 1.5rem;
+        padding-bottom: 2rem;
+    }
+    
+    .text1-item2-after {
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .img-intro {
+        width: 26rem;
+        height: 26rem;
+        border-radius: 1rem;
+    }
+
+    .intro-text1 {
+        font-size: 1.7rem;
+        color: #e63a73;
+        line-height: 3.5rem;
+    }
+
+    .list-link {
+        width: 30rem;
+        
+    }
+    
+    .center-intro {
+        height: 35rem;
+    }
+}
+
+
+@media screen and (max-width: 660px) {
+    .img-footer-intro {
+        width: 50rem;
+        height: 22rem;
+        
+    }
+
+    .intro-text1 {
+        font-size: 1.5rem;
+        color: #e63a73;
+        line-height: 3rem;
+    }
+
+    .img-intro {
+        width: 22rem;
+        height: 22rem;
+        border-radius: 1rem;
+    }
+
+    .img-intro-list {
+        width: 4rem;
+        height: 4rem;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .content-intro {
+        height: 130rem;
+    }
+
+    .introduce {
+        padding-top: 2rem;
+    }
+
+    .header-intro-text {
+        text-align: center;
+    }
+
+    .text-intro-after {
+        height: 22rem;
+    }
+
+    .center-intro {
+        text-align: center;
+        height: auto;
+    }
+
+    .img-intro {
+        width: 22rem;
+        height: 22rem;
+        border-radius: 22rem;
+        margin-bottom: 2rem;
+    }
+
+    .list-link {
+        width: 100%;
+        justify-content: space-around;
+    }
+    
+    .img-footer-intro {
+        width: 40rem;
+        height: 15rem;
+        
+    }
+
+    .footer-intro {
+        height: auto;
+    }
+
+}
+
+
+
+@media screen and (max-width: 550px) {
+    
+
+    .img-footer-intro {
+        width: 35rem;
+        height: 17rem;
+        
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .login-user {
+        width: auto;
+    }
+    
+    .login-pass {
+        width: auto;
+    }
+
+    .img-footer-intro {
+        width: 25rem;
+        height: 9rem;
+        
+    }
+}
